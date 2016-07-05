@@ -1,0 +1,63 @@
+<!--start nav bar-->
+
+<nav class="navbar navbar-inverse custom-nav" role="navigation">
+    <!-- start navbar container-->
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button class="navbar-toggle collapsed" data-toggle="collapse" aria-expanded="false" data-target="#navbar">
+                <span class="sr-only">Toggle Navigation</span>
+                <li class="icon-bar"></li>
+                <li class="icon-bar"></li>
+                <li class="icon-bar"></li>
+                <li class="icon-bar"></li>
+            </button>
+            
+        </div>
+        <!-- end navbar header-->
+
+        <div class="navbar-collapse collapse" id="navbar">
+            <ul class="nav navbar-nav">
+                <li id="home"><a href="../home/"><i class="fa fa-home"></i> Home</a></li>
+                <li id="pref"><a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" role="button"><i class="fa fa-bars"></i> View As <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        
+                        <li id="ind"><a href="../individual/">Individual</a></li>
+                        <li id="group"><a href="../group/">Group</a></li>
+                        <li id="year"><a href="../year/">Year</a></li>
+                        
+                    </ul>
+
+                </li>
+               
+            </ul>
+            <form class="navbar-form navbar-right" role="search">
+                <div class="form-group">
+                    <input type="text" placeholder="search" class="form-control">
+                </div>
+            </form>
+            <ul class="nav navbar-nav navbar-right" id="dgrp">
+                <li>
+                    <a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" role="button">Groups <i class="caret"></i></a>
+                    <ul class="dropdown-menu">
+                        <li id="sc"><a href="#">Science</a></li>
+                        <li id="sc"><a href="#">Arts</a></li>
+                        <li id="sc"><a href="#">Commerce</a></li>
+                        <li id="sc"><a href="#">Business Management</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right" id="dyear">
+                <li>
+                    <a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" role="button">years <i class="caret"></i></a>
+                    <ul class="dropdown-menu">
+                        <li id="sc"><a href="#">First Year</a></li>
+                        <li id="sc"><a href="#">Second Year</a></li>
+                        
+                    </ul>
+                </li>
+            </ul>
+        </div>
+          
+    </div>
+    <!-- end navbar container-->
+</nav>

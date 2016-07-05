@@ -1,0 +1,27 @@
+.custom{
+	text-align: center;
+}
+.row-content {
+    margin: 0px auto;
+    padding: 50px 0px;
+    borde-bottom: 1px ridge;
+    min-height: 400px;
+}
+
+.custom-nav{
+	margin-top: -40px;
+}
+
+.custom-well{
+	background: white;
+}
+
+.custom-row{
+	background: gray;
+	margin-top: -30px;
+}
+
+td, th {
+	text-align: center;
+	font-size: 40px;
+}
